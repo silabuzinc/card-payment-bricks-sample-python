@@ -23,7 +23,7 @@ pipenv install mercadopago
 1. Clone the project.
 
 ```bash
-git clone https://github.com/mercadopago/card-payment-bricks-sample-python.git
+git clone https://github.com/silabuzinc/card-payment-bricks-sample-python.git
 ```
 
 2. Go to the project's folder.
@@ -32,12 +32,18 @@ git clone https://github.com/mercadopago/card-payment-bricks-sample-python.git
 cd card-payment-bricks-sample-python
 ```
 
+## Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
 ## 🌟 How to run it
 
 1. Run the following command to start the application:
 
 ```bash
-pipenv run flask --debug run -h 0.0.0.0
+flask --debug run -h 0.0.0.0
 ```
 
 2. Remember to replace the values of `YOUR_PUBLIC_KEY` and `YOUR_ACCESS_TOKEN` on `.env` file with the corresponding [credentials](https://www.mercadopago.com/developers/panel) from your account.
